@@ -1,3 +1,5 @@
+package Test1;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -5,7 +7,6 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -39,7 +40,7 @@ public class Main extends Application {
 
         vbox.getChildren().addAll(box1, box2, box3, box4, box5);
 
-        Image img = new Image("logo-modified.png");
+        Image img = new Image("Test1/logo-modified.png");
         primaryStage.getIcons().add(img);
         //fullscreen
         primaryStage.setMaximized(true);
